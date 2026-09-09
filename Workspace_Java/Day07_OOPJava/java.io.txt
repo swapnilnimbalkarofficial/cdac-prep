@@ -1,0 +1,43 @@
+java.io
+│
+├── File / File handling
+│   └── File
+│
+├── Byte Streams
+│   │
+│   ├── InputStream (abstract class)
+│   │   ├── FileInputStream
+│   │   ├── BufferedInputStream
+│   │   ├── DataInputStream
+│   │   ├── ObjectInputStream
+│   │   └── RandomAccessFile*
+│   │
+│   └── OutputStream (abstract class)
+│       ├── FileOutputStream
+│       ├── BufferedOutputStream
+│       ├── DataOutputStream
+│       ├── ObjectOutputStream
+│       └── PrintStream
+│
+├── Character Streams
+│   │
+│   ├── Reader (abstract class)
+│   │   ├── FileReader
+│   │   ├── BufferedReader
+│   │   └── InputStreamReader
+│   │
+│   └── Writer (abstract class)
+│       ├── FileWriter
+│       ├── BufferedWriter
+│       ├── OutputStreamWriter
+│       └── PrintWriter
+│
+├── Object Serialization
+│   ├── Serializable (interface)
+│   ├── ObjectOutputStream
+│   └── ObjectInputStream
+│
+└── Other Important
+    ├── IOException
+    ├── FileNotFoundException
+    └── EOFException
